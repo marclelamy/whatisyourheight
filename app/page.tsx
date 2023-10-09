@@ -27,7 +27,7 @@ import {
 
 
 export default function Home() {
-    const [height, setHeight] = useState(0);
+    const [height, setHeight] = useState('0');
     const [unit, setUnit] = useState("cm");  // Step 1: Initialize unit state
 
     return (
